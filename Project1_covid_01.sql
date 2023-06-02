@@ -16,7 +16,7 @@ Order By 3,4
 
 
 
--- Some Columns have data type nvarchar(255) but for the sake of calculation changing those to different dat types like float and int
+-- Some Columns have data type nvarchar(255) but for the sake of calculation changing those to different data types like float and int
 
 alter table project1..deaths alter column total_cases_per_million float
 go
@@ -35,7 +35,7 @@ go
 
 
 
--- data which we we will going to work with
+-- data which we will going to work with
 
 select location, date, total_cases, new_cases, total_deaths, population
 from Project1..Deaths
